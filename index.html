@@ -10,6 +10,7 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
       </style>
+      <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Inspiration&family=Macondo&family=Sofia+Sans+Condensed:wght@200&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Inspiration&family=Macondo&display=swap" rel="stylesheet">
@@ -46,7 +47,7 @@
                 <a class="nav-link" href="#prices">Prices</a>
               </li>
               <li class="nav-item text-center" >
-                <a class="nav-link" href="#foot">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
           </ul>
         </div>
@@ -54,10 +55,10 @@
       </nav>
 </header>
 
-<body id="#" >
-    <section class="cd">
-        <div class="ab" style="background-image:url(1.jpg);">
-            <div class="ef">
+<body id="#" style="overflow-x: hidden;">
+    <section class="cd" >
+        <div class="ab" >
+            <div class="ef",>
                 <b style=" color: aliceblue;font-weight: 5000; font-size: 70px;">THE RIVERFRONT <br>RESORT</b>
             </div>
         </div>
@@ -171,6 +172,7 @@
                     <b>Terms and Conditions</b>: Tariffs are subject to change without prior notice.
                 </div>
         </div>
+        
         <div id="services">
             <div class="h1 pt-5 text-center"  style="font-family: 'Inspiration', cursive; color: black; font-size: 50px;">
                 Services</div>
@@ -242,7 +244,7 @@
         <div id="#foot" class="container-xxxl d-flex pt-6 mt-3" style="background-color: aliceblue;">
             <div  class="col-3 text-end">
                 <h3  >Contact info</h3>
-                <a id="#foot">Anjali Bhattad<br>+91 ***** ***** <br></a>
+                <a id="contact">Anjali Bhattad<br>+91 ***** ***** <br></a>
                 <a href="#" class="links" > <i class="bi bi-envelope"></i> a_bhattad@ee.iitr.ac.in </a>
                 <ul>
                     <div class="share">
@@ -284,12 +286,30 @@
   {height: 100vh;
     align-items: center;
     display: flex;
+    background-image: url(1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     justify-content: center;
+  }
+  .ab::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+  .blah{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background: rgba(black,0.5);
+    background-attachment: fixed;
+    position: relative;
   }
   .ef{
     
@@ -298,7 +318,7 @@ font-size: 8vh;
     position: relative;
     text-align: center;
     color: black;
-font-family: 'Macondo', cursive;}
+    font-family: 'DynaPuff', cursive;}
 .nav-item:hover{
     background-color:rgb(128, 170, 172) ;
 }
